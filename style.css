@@ -1,0 +1,230 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+.navbar-inner {
+    background:black;
+}
+.items{
+  text-align: right;
+}
+.brandy h3{
+  margin-left: 55px;
+  color: red;
+}
+.top-container{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  margin-bottom: 0;
+  padding-bottom: 35%;
+
+}
+.aboutMe{
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
+  padding-bottom: 50px;
+  background-color: black;
+  margin-top: 0;
+}
+.helloi{
+  text-align: center;
+  align-items: center;
+  height: 50vh;
+
+}
+ p{
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+  opacity: 70%;
+}
+.helloi h1{
+color: white;
+font-size: 3em;
+font-style: "montserrat";
+}
+.imag{
+  align-items: center;
+  text-align: center;
+  position: relative;
+  transform:translateY(-150%);
+}
+.type{
+  color: red;
+  padding-bottom: 40px;
+  white-space: nowrap;
+  display: inline;
+  margin-bottom: 40px;
+}
+.imgs{
+  margin-top: 100px;
+  width: 15%;
+  height:10%;
+  padding: 0 20px;
+}
+.aboutme{
+  position: absolute;
+  margin-top: 200px;
+  width: 50%;
+  color: #e5e5e5;
+  text-align: left;
+  margin-left: 70px;
+}
+.hireme{
+  border: 1px solid #ff7171;
+  text-decoration: none;
+  padding: 5px 20px;
+  background: transparent;
+  font-family: "montserrat";
+  color: white;
+  overflow: hidden;
+  transition: 0.7s all ease;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.para{
+  text-align: center;
+  width: 100%;
+  padding: 0 100px;
+
+}
+
+
+.hireme:hover{
+  background-color: #ea5455;
+  transform: rotateY(-20deg);
+
+}
+.middle-container{
+  width: 100%;
+  height: 50vh;
+  align-items: center;
+  text-align: center;
+  padding-top:25vh;
+  background-color: black;
+}
+
+.lolii h1{
+  color: white;
+  text-align: center;
+  transform: translateY(-150%);
+  font-size: 3rem;
+
+}
+
+.titu{
+  position: absolute;
+ width: 50%;
+ height: 100%;
+ transform: translate(180%,-100%);
+
+}
+
+
+    .lolii{
+      background-color: black;
+    }
+    .container{
+      background-color: black;
+      justify-content: center;
+      display: flex;
+      margin: 0;
+    }
+    .container .card{
+      position: relative;
+      max-width: 300px;
+      height: 250px;
+      background: black;
+      margin: 30px 10px;
+      padding: 20px 15px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+      transition: 0.3s ease-in-out;
+
+    }
+    .container .card:hover{
+
+      height: 500px;
+      background: red;
+    }
+    .container .card .imgBx{
+      position: relative;
+      width: 260px;
+      height: 250px;
+
+      left: 20px;
+      z-index: 1;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    }
+    .container .card .imgBx img{
+      max-width: 100%;
+      border-radius: 4px;
+
+    }
+    .container .card .content h2{
+    color: white;
+    margin-top: 30px;
+    }
+    .container .card .content{
+      position: relative;
+      margin-top: -140px;
+      padding: 10px 15px;
+      text-align: center;
+      color: white;
+      visibility: hidden;
+      transition: 0.3s ease-in-out;
+    }
+    .container .card:hover .content{
+      visibility: visible;
+      opacity: 1;
+      margin-top: -40px;
+      transition-delay: 0.3s;
+    }
+.contact{
+  padding-top: 90px;
+  width: 100%;
+  height: 60vh;
+  background-color: black;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.contact h4{
+  color: white;
+  font-size: 2em;
+  font-style: "montserrat";
+  text-align: center;
+  margin-left: 40px;
+}
+.conlist{
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+}
+.conitem{
+  color: grey;
+  font-size: 1em;
+  display: grid;
+
+}
+
+.conitem:hover{
+  color: white;
+  transform: scaleY(1.5);
+  transition-duration: 0.3s;
+  transform: translateX(3);
+}
+#app{
+  background-color: white;
+}
+@media only screen and (max-width: 1200px){
+  .container{
+    display: inline-grid;
+  }
+.top-container{
+  display: inline-grid;
+}
+}
